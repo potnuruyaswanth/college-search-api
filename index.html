@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>College Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Global College Finder</h1>
+    <p>Search universities by country, name, or state!</p>
+
+    <div class="form-group">
+      <input type="text" id="country" placeholder="Enter country (e.g., India)" />
+      <input type="text" id="state" placeholder="Enter state (optional)" />
+      <input type="text" id="college_name" placeholder="Enter college name (optional)" />
+      <button id="bt">🔍 Search</button>
+    </div>
+
+    <ul id="result"></ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
